@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+summary {
+  cursor: pointer;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  grid-template-rows: auto;
+  gap: 1rem;
+}
+
+.user-card {
+  padding-block: 10px;
+  padding-inline: 10px;
+  border: 2px solid #DFDFDF;
+  border-radius: 10px;
+}
+
+.user-card details p {
+  text-align: left;
+  word-wrap: break-word;
+}
